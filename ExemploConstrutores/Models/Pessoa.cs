@@ -9,17 +9,18 @@ namespace ExemploConstrutores.Models
     {
         private string nome;
         private string sobrenome;
-        //Exemplo de construtor sem parâmetros
-        public Pessoa()
-        {
-            nome = string.Empty;
-            sobrenome = string.Empty;
-        }
+        // //Exemplo de construtor sem parâmetros
+        // public Pessoa()
+        // {
+        //     nome = string.Empty;
+        //     sobrenome = string.Empty;
+        // }
         //Exemplo de construtor com parâmentros
         public Pessoa(string nome, string sobrenome)
         {
             this.nome = nome;
             this.sobrenome = sobrenome;
+            System.Console.WriteLine("Construtor classe pessoa");
             
         }
 

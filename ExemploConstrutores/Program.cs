@@ -8,16 +8,16 @@ namespace ExemploConstrutores
         static void Main(string[] args)
         {
 
-            Log log = Log.GetInstance();
+            // Log log = Log.GetInstance();
 
-            log.PropriedadeLog = "Teste instância";
+            // log.PropriedadeLog = "Teste instância";
 
-            Log log2 = Log.GetInstance();
-            System.Console.WriteLine(log2.PropriedadeLog);
+            // Log log2 = Log.GetInstance();
+            // System.Console.WriteLine(log2.PropriedadeLog);
 
 
-            //Pessoa p1 = new Pessoa();
-            //p1.Apresentar();
+            Aluno p1 = new Aluno("Yuri", "Nunes", "Teste");
+            p1.Apresentar();
         }
     }
 }
